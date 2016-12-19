@@ -1,0 +1,8 @@
+Config {
+	  lowerOnStart	= False
+	, bgColor	= "black"
+	, fgColor	= "white"
+	, font	= "xft:Ricty Diminished:Regular:size=9:antialias=true"
+	, position	= Static { xpos=5, ypos=775, width=1270, height=20 }
+	, template 	= "Xmonad is god. %StdinReader%}{[ time %/home/temama/.xmonad/time.sh% ] [ light %/home/temama/.xmonad/backlight.sh% ] [ Battery %/home/temama/.xmonad/battery_capacity.sh% : %/home/temama/.xmonad/battery_status.sh% ] "
+}
