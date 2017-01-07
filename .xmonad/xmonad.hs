@@ -23,7 +23,8 @@ main = do
             { borderWidth       = 1
             , terminal          = "urxvt"
             , modMask           = modm
-            , layoutHook        = toggleLayouts Full  myLayoutHooks
+            , layoutHook        = toggleLayouts Full
+                                  myLayoutHooks
             }
           `additionalKeys`
           [ ((modm, xK_a), sendMessage MirrorExpand)
