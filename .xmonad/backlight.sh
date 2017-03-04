@@ -1,1 +1,1 @@
-echo `cat /sys/class/backlight/acpi_video0/brightness`/`cat /sys/class/backlight/acpi_video0/max_brightness`
+echo `cat /sys/class/backlight/intel_backlight/brightness`/`cat /sys/class/backlight/intel_backlight/max_brightness`

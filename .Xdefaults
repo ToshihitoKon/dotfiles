@@ -1,11 +1,16 @@
+Xcursor*size: 24
+
 urxvt.scrollBar:	false
+
+URxvt*urgentOnBell: true
+URxvt*visualBell:   false
 
 urxvt.depth:	32
 
 urxvt.background: 	[75]black
 urxvt.foreground:	white
 
-urxvt.font:	xft:Ricty Diminished:size=10.5:Regular
+urxvt.font:	xft:Ricty Diminished:size=12:Regular
 
 ! special
 *.foreground:   #a2a2a2
