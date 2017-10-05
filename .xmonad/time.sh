@@ -1,1 +1,1 @@
-timedatectl | grep Local | sed -e 's/^.*Local time: . [0-9]*-[0-9]*-[0-9]*//g' | sed -e 's/JST//g'
+echo 'ζ*'"'"'ヮ'"'"')ζ< うっうー！'"$(date +'%H時%M分ですよー！')"

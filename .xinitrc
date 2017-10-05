@@ -12,7 +12,7 @@ export XMODIFIERS=@im=fcitx
 
 sh ~/.fehbg &
 xinput disable "SynPS/2 Synaptics TouchPad"
-xinput set-prop "TPPS/2 IBM TrackPoint" "Coordinate Transformation Matrix" 2 0 0 0 2 0 0 0 1
+#xinput set-prop "TPPS/2 IBM TrackPoint" "Coordinate Transformation Matrix" 2 0 0 0 2 0 0 0 1
 unclutter &
 
 exec xmonad

@@ -2,13 +2,17 @@ set autoindent
 set expandtab
 set shiftround
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
+set smartindent
 set number
 set background=dark
 set modeline
 
 highlight ColorColumn ctermbg=gray
 set colorcolumn=80
+set cursorline
+set scrolloff=8
 
 set fileformats=unix,dos,mac
 syntax on
